@@ -646,3 +646,5 @@ user_type.admin_edit > user.user_id
 user.admin_create > user.user_id
 user.admin_edit > user.user_id
 ```
+
+![](example.png)
