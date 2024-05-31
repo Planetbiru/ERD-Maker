@@ -1,5 +1,15 @@
 # ERD Maker
 
+# Relation
+
+| Notation | Meaning |
+| -------- | ------- |
+| - | One to one |
+| > | Many to one |
+| < | One to many |
+| >< | Many to many |
+
+
 # Database Support
 
 - MySQL
