@@ -647,4 +647,20 @@ user.admin_create > user.user_id
 user.admin_edit > user.user_id
 ```
 
+### Relation
+
+```
+user_type.user_type_id < user.user_type_id
+
+user.user_id < user_activity.user_id
+user.user_id < user_profile.user_id
+
+user_type.admin_create > user.user_id
+user_type.admin_edit > user.user_id
+
+user.admin_create > user.user_id
+user.admin_edit > user.user_id
+```
+### Image
+
 ![](example.png)
