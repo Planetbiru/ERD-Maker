@@ -1,0 +1,68 @@
+.all{
+    padding: 20px;
+    position: relative;
+    color: #222222;
+}
+body{
+    margin: 0;
+    position: relative;
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    height: calc(30vh - 80px);
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid #DDDDDD;
+    font-family: 'Courier New', Courier, monospace;
+}
+table{
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+table thead td{
+    font-weight: bold;
+}
+table td{
+    padding: 5px 10px;
+}
+
+.input-area table td{
+    padding: 0;
+}
+.input-area table tr > td:nth-child(1){
+    padding: 0 10px 0 0;
+}
+.input-area table tr > td:nth-child(2){
+    padding: 0 0 0 10px;
+}
+.output-area{
+    border: 1px solid #DDDDDD;
+    height: calc(30vh - 40px);
+    overflow: auto;
+}
+.diagram-area
+{
+    border: 1px solid #DDDDDD;
+    height: calc(30vh - 40px);
+    overflow: auto;
+}
+.output{
+    padding: 20px;
+}
+h3{
+    margin: 5px 0;
+    padding: 0;
+}
+h4{
+    margin: 5px 0;
+    padding: 0;
+}
+input[type="button"]
+{
+    background-color: rgb(37, 180, 133);
+    border: 1px solid rgb(29, 150, 109);
+    color: #FFFFFF;
+    padding: 6px 15px;
+    border-radius: 3px;
+}

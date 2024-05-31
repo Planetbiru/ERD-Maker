@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/sql-create-table-parser.js"></script>
+    <script src="js/lib/FileSaver.js"></script>
+    <script src="js/js.js"></script>
+</head>
+<body>
+    <div class="all">
+        
+        <div class="input-area">
+            <table width="100%">
+                <tr>
+                    <td width="50%">
+                        <h3>SQL Here</h3>
+                        <textarea name="input" id="input" spellcheck="false"></textarea>
+                    </td>
+                    <td width="50%">
+                        <h3>Relation Here</h3>
+                        <textarea name="relation" id="relation" spellcheck="false"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <input type="file" id="input_file" style="position: absolute; left:-10000px; top:-10000px;">
+                <input type="button" value="Load Source" onclick="loadSource()">
+                <input type="button" value="Save Source" onclick="saveSource()">
+                <input type="button" value="Save Result" onclick="saveResult()">
+            </div>
+        </div>
+        <h3>Output Here</h3>
+        <div class="output-area">
+            <div class="output" id="output" contenteditable="true" spellcheck="false"></div>
+        </div>
+        <h3>Diagram Here</h3>
+        <div class="diagram-area">
+            <div class="diagram" id="diagram"></div>
+        </div>
+    </div>
+</body>
+</html>
