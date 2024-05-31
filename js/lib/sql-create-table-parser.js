@@ -58,6 +58,7 @@ function TableParser()
 
                 // look for PRIMARY KEY
                 is_pk = rg_pk.test(attr2);
+                
 
                 // look for DEFAULT
                 let def = rg_fld_def.exec(attr2);
