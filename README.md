@@ -2,12 +2,12 @@
 
 # Relation
 
-| Notation | Meaning |
-| -------- | ------- |
-| - | One to one |
-| > | Many to one |
-| < | One to many |
-| >< | Many to many |
+| Notation | Meaning | Description |
+| -------- | ------- | ----------- |
+| - | One to one | One on left one on right |
+| > | Many to one | Many on left one on right |
+| < | One to many | One on left many on right |
+| >< | Many to many | Many on left many on right |
 
 
 # Database Support
